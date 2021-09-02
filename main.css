@@ -1,0 +1,176 @@
+body {
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
+
+/*header*/
+
+#header {
+    background: #1F1F1F;
+}
+#header_container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+#header_logo {
+    display: inline-block;
+    vertical-align: middle;
+    width: 60px;
+}
+#header_logo img {
+    max-width: 100%;
+}
+#header_list_link {
+    display: inline-block;
+    vertical-align: middle;
+
+    margin: 0 139px;
+}
+.header_list_link_item {
+    text-decoration: none;
+    
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #BDBDBD;
+
+    margin: 0 25px;
+}
+#header_search {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/*main*/
+
+#main_container {
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 53px;
+}
+#main_info {
+    display: inline-block;
+    vertical-align: middle;
+    width: 548px;
+
+    margin-right: 51px;
+}
+#main_info h1 {
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 57px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+
+    color: #1F1F1F;
+    margin: 0;
+}
+#main_info_heading_text {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.08em;
+    text-transform: capitalize;
+
+    color: #1F1F1F;
+    margin-top: 41px;
+}
+#main_info_text {
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.08em;
+
+    color: #1F1F1F;
+    margin-top: 14px;
+}
+#main_info_actions {
+    margin-top: 33px;
+}
+#main_info_watch {
+    box-sizing: border-box;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+
+    padding: 10px;
+    width: 136px;
+    background: #FE6388;
+    border-radius: 5px;
+
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.08em;
+    text-transform: capitalize;
+
+    color: #FFFFFF;
+}
+#main_info_actions .main_info_action {
+    display: inline-block;
+    vertical-align: middle;
+    width: 38px;
+    height: 40px;
+
+    background: #1F1F1F;
+    border-radius: 5px;
+    margin-left: 12px;
+    text-align: center;
+    line-height: 45px;
+}
+#main_info_actions .main_info_action:last-child {
+    line-height: 50px;
+}
+
+#main_img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/*films_more*/
+
+#films {
+    margin-top: 90px;
+}
+#films_container {
+    width: 1200px;
+    margin: 0 auto;
+}
+#films_heading {
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 25px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    text-align: center;
+
+    color: #1F1F1F;
+}
+#films_list {
+    margin-top: 25px;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+#films_list .film_item {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 0;
+    margin: 10px 12px;
+}
+#films_more {
+    text-align: center;
+    margin-top: 35px;
+}
+#films_more div {
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 25px;
+    letter-spacing: 0.08em;
+
+    color: #BDBDBD;
+    margin-top: 5px;
+    margin-bottom: 50px;
+}
